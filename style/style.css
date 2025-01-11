@@ -4,6 +4,9 @@ font-family: "Work Sans", serif;
     margin: 0;
     padding: 0;
 }
+body{
+    background-color:  rgb(245, 245, 245);
+}
 .bangladesh{
     display: flex;
     justify-content: space-between;
@@ -289,9 +292,80 @@ ul >li{
 /* opinion part */
 .opinion{
     margin-top: 140px;
-    margin-left: 18px;
+    margin-left: 28px;
+   
 }
 .opininotitle{
     font-weight: bold;
     font-size: 35px;
+}
+.opin{
+    width: 1040px;
+    background-color: rgba(255, 255, 255, 0.71);
+    height: 230px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+.opinionboxpart{
+    width: 1000px;
+    padding: 35px 35px 30px 20px;
+    height: auto;
+}
+.opinionbox1{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(198, 228, 214);
+}
+.object{
+    padding-left: 10px;
+   font-size: 13px;
+    font-weight: bold;
+
+}
+.subdiv{
+    margin: 7px 14px 0px 0px;
+    padding-right: 10px;
+
+}
+.subdiv>button{
+   margin-right: 0px;
+   box-sizing: border-box;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    padding-left: 5px;
+    background: rgb(198, 228, 214);
+    padding: 4px;
+}
+.vector{
+    border: 0px solid rgb(0, 0, 0);
+}
+.opinionbox2{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.opinionbox3{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.opinionbox4{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+hr{
+   height: 39px;
+   margin-top: -2.3px;
+   margin-right: 25px;
+   color: rgba(14, 14, 14, 0.15);
 }
