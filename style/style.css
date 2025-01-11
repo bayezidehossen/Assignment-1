@@ -118,11 +118,14 @@ ul >li{
 
 /* vision part */
 .vision{
-    height: 380px;
-    width: 918px;
+     height: 360px;
+    width: 1060px; 
 }
 .visiondiv{
     display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+    
 }
 .visionhead{
     font-weight: bold;
@@ -134,9 +137,11 @@ ul >li{
     font-size: 17px;
     margin: 12px 0px 25px 30px;
 }
+
+
 .visiondiv1{
-    height: 280px;
-    width: 400px;
+    height: 320px;
+    width: 700px;
     box-sizing: border-box;
     border-radius: 16px;
     background: rgba(84, 144, 245, 0.2);
@@ -157,6 +162,7 @@ ul >li{
     letter-spacing: 0%;
     text-align: left;
     padding-top: 0px;
+    margin-left: 18px;
 }
 .visiondetail{
     color: rgba(14, 14, 14, 0.7);
@@ -166,12 +172,126 @@ ul >li{
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
+    margin-left: 18px;
 }
 .visionbtn{
-    height: 20px;
+    height: 30px;
+    width: 120px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    background: rgb(84, 144, 245);
+    margin-left: 18px;
+}
+
+
+.visiondiv2{
+    height: 320px;
+    width: 700px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.visionimg2{
+    height: 50px;
+    width: 50px;
+    padding: 20px 20px 10px 20px;
+}
+
+.visiontitle2{
+    color: black;
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 0px;
+    margin-left: 18px;
+}
+
+.visiondetail2{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 18px;
+}
+
+.visionbtn2{
+    height: 30px;
     width: 120px;
     padding-bottom: 10px;
     font-size: 15px;
-    padding: 13px;
-    text-align: center;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    background: rgb(9, 161, 92);
+    margin-left: 18px;
+}
+  
+
+.visiondiv3{
+    height: 320px;
+    width: 700px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: peachpuff;
+    padding: 10px;
+    margin-left: 30px;
+}
+.visionimg3{
+    height: 50px;
+    width: 50px;
+    padding: 20px 20px 10px 20px;
+}
+.visiontitle3{
+    color: black;
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 0px;
+    margin-left: 18px;
+}
+.visiondetail3{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 18px;
+}
+.visionbtn3{
+    height: 30px;
+    width: 120px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    background: rgb(255, 194, 57);
+    margin-left: 18px; 
+}
+
+/* opinion part */
+.opinion{
+    margin-top: 140px;
+    margin-left: 18px;
+}
+.opininotitle{
+    font-weight: bold;
+    font-size: 35px;
 }
