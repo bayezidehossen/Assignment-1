@@ -111,7 +111,7 @@ ul >li{
     width: 49px;
 }
 .about{
-    margin: 10px 6px;
+    margin: 10px 4px;
     font-weight: bold;
     font-size: 20px;
 }
@@ -602,5 +602,19 @@ hr{
     margin-bottom: 50px;
 }
 .icon i{
-   margin-right: 10px;
+   margin-right: 20px;
+   margin-left: -10px;
+}
+
+
+
+.socal1{
+    color: blue;
+}
+.socal2{
+    color: red;
+}
+
+.socal1, .socal2, .socal3{
+    font-size: 25px;
 }
