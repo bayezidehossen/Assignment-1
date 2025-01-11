@@ -326,7 +326,7 @@ ul >li{
 }
 .object2{
     padding-left: 10px;
-   font-size: 18px;
+    font-size: 18px;
     font-weight: bold;
     margin-top: 8px;
 }
@@ -454,4 +454,59 @@ hr{
 }
 
                  /* donate part */
+
+.donatehead{
+    text-align: center;
+    margin: 50px 0px 25px 0px;
+    font-weight: bold;
+}
+.donatedes{
+    text-align: center;
+    margin: 0px 70px;
+    color: rgb(14, 14, 14, 0.7);
+}
+.donatebox{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    height: 40px;
+    width: 900px;
+    margin-left: 100px;
+}
+.first{
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 15px;
+    gap: 20px;
+    background-color:  rgb(255, 255, 255, 0.71);
+}
+.amader{
+    border: none;
+    background-color: rgb(198, 228, 214);
+}
+.one{
+    border: none;
+    background-color: rgb(255, 255, 255, 0.71);
+    margin-top: 40px;
+    height: 45px;
+    width: 850px;
+    margin-left: 124px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin: 40px 0px 30px 124px;
+}
+.submit{
+    color: white;
+    background-color: rgb(0, 106, 80);
+    height: 40px;
+    width: 100px;
+    border: none;
+    margin-left: 500px;
+    border-radius: 7px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
 
