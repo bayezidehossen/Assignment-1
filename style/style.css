@@ -119,6 +119,36 @@ ul >li{
     color: rgb(14, 14, 14, 0.7);
 }
 
+                                /* adviser part */
+
+.dryounus{
+    
+    background-color: rgb(255, 255, 255);
+    height: 205px;
+    width: 1000px;
+    margin-top: 120px;
+    margin-left: 35px;
+    padding: 20px 10px;
+}
+.double{
+    height: 40px;
+    width: 40px;
+    margin-top: -8px;
+} 
+.name{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.743);
+}
+.rank{
+    color: rgb(14, 14, 14, 0.7);
+    margin-top: -12px;
+}
+.speech{
+    color:  rgb(14, 14, 14, 0.7);
+    margin-top: -30px;
+}
                                 /* vision part */
 .vision{
      height: 360px;
@@ -291,7 +321,7 @@ ul >li{
 
                               /* opinion part */
 .opinion{
-    margin-top: 140px;
+    margin-top: 60px;
     margin-left: 28px;
    
 }
@@ -333,6 +363,7 @@ ul >li{
 .subdiv{
     margin: 7px 14px 0px 0px;
     padding-right: 10px;
+    
 
 }
 .subdiv>button{
@@ -343,9 +374,11 @@ ul >li{
     padding-left: 5px;
     background: rgb(198, 228, 214);
     padding: 4px;
+    font-size: 13px;
 }
 .vector{
     border: 0px solid rgb(0, 0, 0);
+    margin-left: 10px;
 }
 .opinionbox2{
     height: 40px;
@@ -483,7 +516,7 @@ hr{
     gap: 20px;
     background-color:  rgb(255, 255, 255, 0.71);
 }
-.amader{
+.amader:hover{
     border: none;
     background-color: rgb(198, 228, 214);
 }
@@ -510,3 +543,64 @@ hr{
     margin-bottom: 50px;
 }
 
+
+/* footer part */
+
+.bdnews{
+    height: 250px;
+    width: 1000px;
+    text-align: center;
+    border: none;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    padding-top: 25px;
+    margin: 25px 0px 30px 50px;
+}
+.heading{
+    font-weight: bold;
+    font-size: 40px;
+}
+.newsdes1{
+    color: rgb(14, 14, 14, 0.7);
+    font-size: 15px;
+    width: 500px;
+    margin-left: 240px;
+}
+.newsdes{
+    color: rgb(14, 14, 14, 0.7);
+}
+.inpo input{
+    border: none;
+    height: 30px;
+}
+.box1{
+    width: 400px;
+    height: 30px;
+    text-align: left;
+    padding-left: 25px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.box2{
+    width: 100px;
+    background-color: rgb(0, 106, 80);
+    text-align: center;
+    font-size: 15px;
+     margin-left: -5px;
+     border-top-right-radius: 7px;
+     border-bottom-right-radius: 7px;
+}
+
+.total{
+    font-size: 30px;
+    margin: 40px 0px 20px 450px;
+}
+
+
+.icon{
+    margin-left: 510px;
+    margin-bottom: 50px;
+}
+.icon i{
+   margin-right: 10px;
+}
